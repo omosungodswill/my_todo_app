@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> Signup </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<style type="text/css">
+    .top{margin-top: 20px; margin-bottom:20px; text-align: center;}
+
+    form, input{margin:5px; width: 400px; margin-bottom: 20px; padding: 15px;}
+</style>
+    <div id = "Main-Wrapper">
+        <!-- <section class = "top-header"> This is the Header </section> -->
+        <section class="main">
+        <section class="top">Register as a new user</section>
+    <center>
+    <form action="/signup" method="POST">
+        <label for="fnameID">First Name:</label><br>
+        <input type="text" id="fnameID" name="fname" value=""><br>
+
+        <label for="lnameID">Last Name:</label><br>
+        <input type="text" id="lnameID" name="lname" value=""><br>
+
+        <label for="emailAddressID">Email:</label><br>
+        <input type="text" id="emailAddressID" name="emailAddress" value=""><br>
+        
+        <label for="passID">Password:</label><br>
+        <input type="text" id="passID" name="pass" value=""><br>
+
+        <input type="submit" value="Signup">
+        </form>
+    </center>
+</section>
+        <!-- <section class="footer"></section> -->
+</div>
+</body>
+</html>
